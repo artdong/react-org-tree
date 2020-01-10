@@ -1,0 +1,41 @@
+{
+  "name": "react-org-tree",
+  "version": "0.0.1",
+  "description": "org tree component of react",
+  "main": "dist/bundle.js",
+  "files": [
+    "dist",
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [
+    "react",
+    "tree",
+    "org-tree",
+    "react-org-tree",
+    "react-org-chart"
+  ],
+  "author": "artdong",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "classnames": "^2.2.6",
+    "css-loader": "^2.0.1",
+    "node-sass": "^4.11.0",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^3.10.0",
+    "webpack-node-externals": "^1.6.0"
+  },
+  "dependencies": {}
+}
