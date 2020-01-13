@@ -1,6 +1,6 @@
 # react-org-tree
 
-[![npm version](https://badge.fury.io/js/react-org-tree.svg)](https://badge.fury.io/js/react-org-tree)
+[![npm version][npm-image]][npm-url]
 [![mnt-image](https://img.shields.io/maintenance/yes/2020.svg)](../../commits/master)
 [![GitHub stars](https://img.shields.io/github/stars/artdong/react-org-tree.svg)](https://github.com/artdong/react-org-tree/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/artdong/react-org-tree.svg)](https://github.com/artdong/react-org-tree/network)
@@ -77,6 +77,8 @@ const data = {
 
 <img src="https://upload-images.jianshu.io/upload_images/3100736-9a338b3b8b6ee580.png" width="773px" style="display:inline;">
 
+[npm-image]: https://badge.fury.io/js/react-org-tree.svg
+[npm-url]: https://npmjs.org/package/react-org-tree
 
 
 
