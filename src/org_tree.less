@@ -91,7 +91,7 @@
   display: table-cell;
   vertical-align: top;
 
-  &.is-leaf {
+  &.is-leaf, &.collapsed {
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -115,6 +115,19 @@
     border-top: 1px solid #ddd;
   }
 
+}
+.collapsable .org-tree-node.collapsed {
+  padding-bottom: 30px;
+
+  .org-tree-node-label:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 50%;
+    height: 20px;
+    border-right: 1px solid #ddd;
+  }
 }
 .org-tree > .org-tree-node {
   padding-top: 0;
@@ -193,6 +206,26 @@
     vertical-align: middle;
   }
 
+  &.collapsable .org-tree-node.collapsed {
+    padding-right: 30px;
+
+    .org-tree-node-label:after {
+      top: 0;
+      left: 100%;
+      width: 20px;
+      height: 50%;
+      border-right: 0;
+      border-bottom: 1px solid #ddd;
+    }
+  }
+
+  .org-tree-node-btn {
+    top: 50%;
+    left: 100%;
+    margin-top: -11px;
+    margin-left: 9px;
+  }
+
   & > .org-tree-node:only-child:before {
     border-bottom: 0;
   }
@@ -223,8 +256,4 @@
 
 .text-center {
   text-align: center;
-}
-
-.org-tree-node-label {
-  white-space: nowrap;
 }

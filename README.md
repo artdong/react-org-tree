@@ -17,6 +17,9 @@ yarn add react-org-tree
 import OrgTree from 'react-org-tree';
 
 const horizontal = false; // true：横向  false：纵向
+const collapsable = true; // true：可折叠 false：不可折叠 
+const expandAll = true; // true: 全部展开 false：全部折叠 
+
 const data = {
     id: 0,
     label: 'XXX股份有限公司',
@@ -45,18 +48,28 @@ const data = {
 <OrgTree
     data={data}
     horizontal={horizontal}
+    collapsable={collapsable}
+    expandAll={expandAll}
 >
 ```
 
 ### Preview
 
-`horizontal`
+`横向(horizontal)`
 
-<img src="https://github.com/artdong/react-org-tree/blob/master/img/1.png" width="939px" style="display:inline;">
+<img src="https://upload-images.jianshu.io/upload_images/3100736-1b67a2ff46365c3a.png" width="939px" style="display:inline;">
 
-`vertical`
+`纵向(vertical)`
 
-<img src="https://github.com/artdong/react-org-tree/blob/master/img/2.png" width="854px" style="display:inline;">
+<img src="https://upload-images.jianshu.io/upload_images/3100736-efc4287df27b79fc.png" width="854px" style="display:inline;">
+
+`部分展开(expand)`
+
+<img src="https://upload-images.jianshu.io/upload_images/3100736-ba7d1e5f955f2d7f.png" width="673px" style="display:inline;">
+
+`全部展开(expandAll)`
+
+<img src="https://upload-images.jianshu.io/upload_images/3100736-9a338b3b8b6ee580.png" width="773px" style="display:inline;">
 
 
 

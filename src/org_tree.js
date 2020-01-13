@@ -14,11 +14,13 @@ export const renderNode = (data, prop) => {
   
     if (isLeaf(data, prop)) {
         cls.push('is-leaf');
+    } else if (prop.collapsable && !data[node.expand]) {
+        cls.push('collapsed');
     }
   
     childNodes.push(renderLabel(data, prop));
   
-    if (data[node.expand]) {
+    if (!prop.collapsable || data[node.expand]) {
         childNodes.push(renderChildren(data.children, prop));
     }
   
@@ -26,6 +28,23 @@ export const renderNode = (data, prop) => {
         key: data.id,
         className: cls.join(' ')
     }, childNodes);
+};
+  
+// 创建展开折叠按钮
+export const renderBtn = (data, prop ) => {
+    const { onExpand } = prop;
+    const node = prop.node;
+
+    let cls = ['org-tree-node-btn'];
+  
+    if (data[node.expand]) {
+        cls.push('expanded');
+    }
+  
+    return React.createElement('span', {
+        className: cls.join(' '),
+        onClick: (e) => typeof onExpand === 'function' && onExpand(e, data)
+    });
 };
   
 // 创建 label 节点
@@ -43,12 +62,16 @@ export const renderLabel = (data, prop) => {
         childNodes.push(label);
     }
   
+    if (prop.collapsable && !isLeaf(data, prop)) {
+        childNodes.push(renderBtn(data, prop));
+    }
+  
     const cls = ['org-tree-node-label-inner'];
   
     return React.createElement('div', {
         className: 'org-tree-node-label',
     }, [React.createElement('div', {
-        className: cls.join(' ')
+        className: cls.join(' '),
     }, childNodes)]);
 };
   
