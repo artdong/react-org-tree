@@ -52,11 +52,11 @@ const data = {
 
 `horizontal`
 
-<img src="https://github.com/artdong/react-org-tree/blob/master/img/1.png" width="520px" style="display:inline;">
+<img src="https://github.com/artdong/react-org-tree/blob/master/img/1.png" width="939px" style="display:inline;">
 
 `vertical`
 
-<img src="https://github.com/artdong/react-org-tree/blob/master/img/2.png" width="520px" style="display:inline;">
+<img src="https://github.com/artdong/react-org-tree/blob/master/img/2.png" width="854px" style="display:inline;">
 
 
 
