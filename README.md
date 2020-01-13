@@ -1,6 +1,6 @@
 # react-org-tree
 
-> A simple organization tree chart based on react
+> A simple organization tree component based on react
 
 ### Installation
 
@@ -16,7 +16,7 @@ yarn add react-org-tree
 ``` js
 import OrgTree from 'react-org-tree';
 
-const horizontal = false;
+const horizontal = false; // true：横向  false：纵向
 const data = {
     id: 0,
     label: 'XXX股份有限公司',
@@ -24,15 +24,21 @@ const data = {
         id: 1,
         label: '技术部',
         children: [{
-            id: 3,
-            label: '后端'
-        }, {
             id: 4,
-            label: '前端'
+            label: '后端工程师'
+        }, {
+            id: 5,
+            label: '前端工程师'
+        }, {
+            id: 6,
+            label: '运维工程师'
         }]
     }, {
         id: 2,
         label: '人事部'
+    }, {
+        id: 3,
+        label: '销售部'
     }]
 }
 
@@ -41,6 +47,18 @@ const data = {
     horizontal={horizontal}
 >
 ```
+
+### Preview
+
+`horizontal`
+
+<img src="https://github.com/artdong/react-org-tree/blob/master/img/1.png" width="520px" style="display:inline;">
+
+`vertical`
+
+<img src="https://github.com/artdong/react-org-tree/blob/master/img/2.png" width="520px" style="display:inline;">
+
+
 
 
 
