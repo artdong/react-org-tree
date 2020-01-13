@@ -2,22 +2,36 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import classnames from 'classnames';
 
-import TreeNode from './org_tree.js';
+import TreeNode from './org_tree';
 
 //组件
 class OrgTree extends Component {
     constructor(props) {
         super(props);
+        this.handleExpand = this.handleExpand.bind(this);
         this.collapse = this.collapse.bind(this);
         this.toggleExpand = this.toggleExpand.bind(this);
     }
 
     componentDidMount() {
-        const { data } = this.props;
-        this.toggleExpand(data, true);
+        const { expandAll, data } = this.props;
+        if(expandAll) this.toggleExpand(data, true);
     }
 
     componentWillUnmount() {
+    }
+
+    handleExpand(e, nodeData) {
+        if ('expand' in nodeData) {
+            nodeData.expand = !nodeData.expand;
+            if (!nodeData.expand && nodeData.children) {
+                this.collapse(nodeData.children);
+            }
+            this.forceUpdate();
+        }else {
+            nodeData.expand = true;
+            this.forceUpdate();
+        }
     }
 
     collapse(list) {
@@ -49,7 +63,7 @@ class OrgTree extends Component {
     }
 
     render() {
-        const { data, node, horizontal, renderContent } = this.props;
+        const { horizontal, node, data } = this.props;
         return <div className="org-tree-container">
             <div className={classnames('org-tree', {
                 'horizontal': horizontal
@@ -57,7 +71,8 @@ class OrgTree extends Component {
                 <TreeNode 
                     data={data}
                     node={node}
-                    renderContent={renderContent}
+                    onExpand={(e, nodeData)=> this.handleExpand(e, nodeData)}
+                    {...this.props}
                 />
             </div>
         </div>;
@@ -68,6 +83,8 @@ OrgTree.propTypes = {
     data: PropTypes.object,
     node: PropTypes.object,
     horizontal: PropTypes.bool,
+    collapsable: PropTypes.bool,
+    expandAll: PropTypes.bool,
     renderContent: PropTypes.func
 };
 
