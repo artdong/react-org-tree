@@ -1,7 +1,7 @@
 {
   "name": "react-org-tree",
-  "version": "0.0.1",
-  "description": "org tree component of react",
+  "version": "0.1.0",
+  "description": "a simple organization tree component based on react",
   "main": "dist/bundle.js",
   "files": [
     "dist",
@@ -11,8 +11,17 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/artdong/react-org-tree.git"
+  },
+  "bugs": {
+    "url": "https://github.com/artdong/react-org-tree/issues"
+  },
+  "homepage": "https://github.com/artdong/react-org-tree/blob/master/README.md",
   "keywords": [
     "react",
+    "org",
     "tree",
     "org-tree",
     "react-org-tree",
