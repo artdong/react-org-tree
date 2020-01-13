@@ -67,11 +67,20 @@ export const renderLabel = (data, prop) => {
     }
   
     const cls = ['org-tree-node-label-inner'];
+
+    let { labelWidth, labelClassName } = prop;
+  
+    if (typeof labelWidth === 'number') {
+        labelWidth += 'px';
+    }
+  
+    labelClassName && cls.push(labelClassName);
   
     return React.createElement('div', {
         className: 'org-tree-node-label',
     }, [React.createElement('div', {
         className: cls.join(' '),
+        style: { width: labelWidth },
     }, childNodes)]);
 };
   

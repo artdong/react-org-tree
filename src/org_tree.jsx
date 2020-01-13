@@ -85,8 +85,10 @@ OrgTree.propTypes = {
     horizontal: PropTypes.bool,
     collapsable: PropTypes.bool,
     expandAll: PropTypes.bool,
-    renderContent: PropTypes.func
-};
+    renderContent: PropTypes.func,
+    labelWidth: PropTypes.number,
+    labelClassName: PropTypes.string
+}
 
 OrgTree.defaultProps = {
     node: {
