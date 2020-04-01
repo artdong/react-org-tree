@@ -63,7 +63,7 @@ class OrgTree extends Component {
     }
 
     render() {
-        const { horizontal, node, data } = this.props;
+        const { horizontal, node, data, onClick } = this.props;
         return <div className="org-tree-container">
             <div className={classnames('org-tree', {
                 'horizontal': horizontal
@@ -72,6 +72,7 @@ class OrgTree extends Component {
                     data={data}
                     node={node}
                     onExpand={(e, nodeData)=> this.handleExpand(e, nodeData)}
+                    onClick={(e, nodeData)=> onClick && onClick(e, nodeData)}
                     {...this.props}
                 />
             </div>
@@ -87,7 +88,8 @@ OrgTree.propTypes = {
     expandAll: PropTypes.bool,
     renderContent: PropTypes.func,
     labelWidth: PropTypes.number,
-    labelClassName: PropTypes.string
+    labelClassName: PropTypes.string,
+    onClick: PropTypes.func
 }
 
 OrgTree.defaultProps = {
