@@ -43,7 +43,10 @@ export const renderBtn = (data, prop ) => {
   
     return React.createElement('span', {
         className: cls.join(' '),
-        onClick: (e) => typeof onExpand === 'function' && onExpand(e, data)
+        onClick: (e) => {
+            e.stopPropagation();
+            typeof onExpand === 'function' && onExpand(e, data);
+        }
     });
 };
   
@@ -52,6 +55,7 @@ export const renderLabel = (data, prop) => {
     const node = prop.node;
     const label = data[node.label];
     const renderContent = prop.renderContent;
+    const onClick = prop.onClick;
   
     const childNodes = [];
     if (typeof renderContent === 'function') {
@@ -78,9 +82,10 @@ export const renderLabel = (data, prop) => {
   
     return React.createElement('div', {
         className: 'org-tree-node-label',
+        onClick: (e) => typeof onClick === 'function' && onClick(e, data)
     }, [React.createElement('div', {
         className: cls.join(' '),
-        style: { width: labelWidth },
+        style: { width: labelWidth }
     }, childNodes)]);
 };
   
