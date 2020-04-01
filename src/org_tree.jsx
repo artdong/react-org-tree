@@ -4,6 +4,8 @@ import classnames from 'classnames';
 
 import TreeNode from './org_tree';
 
+import './org_tree.less';
+
 //组件
 class OrgTree extends Component {
     constructor(props) {
