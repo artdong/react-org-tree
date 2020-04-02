@@ -77,6 +77,26 @@ const data = {
 
 <img src="https://upload-images.jianshu.io/upload_images/3100736-9a338b3b8b6ee580.png" width="773px" style="display:inline;">
 
+## API
+
+参数(prop)              | 说明(descripton)                              | 类型(type)                   | 默认值(default)  
+-----------|-----------------------------------------|:----------------------:|:---------------------------------------------------------:
+  data              | 树结构数据                                       | `Object`               | {} 
+  horizontal        |  是否横向                       | `Boolean` | `false` 
+  collapsable       |  是否可折叠           | `Boolean`              | `false`  
+  expandAll    |  是否展开全部                      | `Boolean` | `false` 
+  labelWidth |  树节点宽度     | `Number` |     `auto` 
+  labelClassName |  树节点样式     | `String`  |     `white`
+  onClick             |  点击事件    | Function(e:Event, data) 
+
+#### 欢迎关注微信公众号`全栈弄潮儿` ，获取更多学习资源及技术文章等
+
+* 微信公众号二维码，扫一扫或者搜索"全栈弄潮儿"即可关注
+
+<p align='center'>
+<img src='https://upload-images.jianshu.io/upload_images/3100736-b722d7d753e6eaf9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240' width='280' alt='Build errors'>
+</p>
+
 [npm-image]: https://badge.fury.io/js/react-org-tree.svg
 [npm-url]: https://npmjs.org/package/react-org-tree
 
