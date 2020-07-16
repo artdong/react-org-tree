@@ -8,6 +8,8 @@
 
 > A simple organization tree component based on react
 
+> If you are using vue, see [vue-org-tree](https://github.com/hukaibaihu/vue-org-tree)
+
 ### Installation
 
 ```
