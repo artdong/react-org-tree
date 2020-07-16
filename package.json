@@ -1,6 +1,6 @@
 {
   "name": "react-org-tree",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "a simple organization tree component based on react",
   "main": "dist/bundle.js",
   "files": [
