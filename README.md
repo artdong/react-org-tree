@@ -102,6 +102,13 @@ const data = {
 [npm-image]: https://badge.fury.io/js/react-org-tree.svg
 [npm-url]: https://npmjs.org/package/react-org-tree
 
+#### 请作者喝一杯咖啡
+
+<p align='center'>
+  <a href="https://www.buymeacoffee.com/artd" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/arial-violet.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" >
+  </a>
+</p>
+
 
 
 
