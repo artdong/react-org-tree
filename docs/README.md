@@ -78,7 +78,7 @@ const data = {
 
 ## Example
 
-http://localhost:8000/demo/
+https://artdong.github.io/react-org-tree/demo
 
 ## License
 
