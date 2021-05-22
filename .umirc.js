@@ -9,6 +9,7 @@ export default defineConfig({
     'https://avatars0.githubusercontent.com/u/9441414?s=200&v=4',
   outputPath: '.doc',
   base: 'react-org-tree',
+  publicPath: '/react-org-tree/',
   exportStatic: {},
   styles: [
     `
