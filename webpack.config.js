@@ -21,5 +21,11 @@ module.exports = {
       }
     ]
   },
+  resolve: {
+    extensions: ['.js', '.jsx', '.json', '.less'],
+    alias: {
+      'react-org-tree': path.resolve('src/index.js')
+    }
+  },
   externals: [nodeExternals()]
 };

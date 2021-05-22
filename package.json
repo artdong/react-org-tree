@@ -1,6 +1,6 @@
 {
   "name": "react-org-tree",
-  "version": "0.2.5",
+  "version": "0.2.7",
   "description": "a simple organization tree component based on react",
   "main": "dist/bundle.js",
   "files": [
@@ -8,6 +8,8 @@
     "lib"
   ],
   "scripts": {
+    "docs:start": "dumi dev",
+    "docs:build": "dumi build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
   },
@@ -34,7 +36,6 @@
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
-    "classnames": "^2.2.6",
     "css-loader": "^2.0.1",
     "node-sass": "^4.11.0",
     "less": "^3.9.0",
@@ -44,7 +45,10 @@
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "webpack": "^3.10.0",
-    "webpack-node-externals": "^1.6.0"
+    "webpack-node-externals": "^1.6.0",
+    "dumi": "^1.1.4"
   },
-  "dependencies": {}
+  "dependencies": {
+    "classnames": "^2.2.6"
+  }
 }
