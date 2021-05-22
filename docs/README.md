@@ -64,24 +64,6 @@ const data = {
 >
 ```
 
-### Preview
-
-`横向(horizontal)`
-
-<img src="https://upload-images.jianshu.io/upload_images/3100736-1b67a2ff46365c3a.png" width="939px" style="display:inline;">
-
-`纵向(vertical)`
-
-<img src="https://upload-images.jianshu.io/upload_images/3100736-efc4287df27b79fc.png" width="854px" style="display:inline;">
-
-`部分展开(expand)`
-
-<img src="https://upload-images.jianshu.io/upload_images/3100736-ba7d1e5f955f2d7f.png" width="673px" style="display:inline;">
-
-`全部展开(expandAll)`
-
-<img src="https://upload-images.jianshu.io/upload_images/3100736-9a338b3b8b6ee580.png" width="773px" style="display:inline;">
-
 ## API
 
 参数(prop)              | 说明(descripton)                              | 类型(type)                   | 默认值(default)  
@@ -101,13 +83,6 @@ http://localhost:8000/demo/
 ## License
 
 react-org-tree is released under the MIT license.
-#### 欢迎关注微信公众号`全栈弄潮儿` ，获取更多学习资源及技术文章等
-
-* 微信公众号二维码，扫一扫或者搜索"全栈弄潮儿"即可关注
-
-<p align='center'>
-<img src='https://upload-images.jianshu.io/upload_images/3100736-b722d7d753e6eaf9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240' width='280' alt='Build errors'>
-</p>
 
 #### 请作者喝一杯咖啡
 

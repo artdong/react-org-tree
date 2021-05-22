@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./",
+      "paths": {
+        "react-org-tree": ["src/index.js"]
+      },
+      "target": "ES6",
+      "module": "commonjs",
+      "jsx": "react",
+      "allowSyntheticDefaultImports": true
+    },
+    "include": [
+      "src/**/*"
+    ],
+    "exclude": ["node_modules"]
+  }

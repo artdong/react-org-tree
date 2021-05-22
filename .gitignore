@@ -22,3 +22,4 @@ yarn-error.log*
 
 package.lock.json
 examples/demo/.idea/workspace.xml
+/**/**/.umi
