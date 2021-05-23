@@ -11,7 +11,7 @@
     "docs:start": "dumi dev",
     "docs:build": "dumi build",
     "predeploy": "dumi build",
-    "deploy": "gh-pages -d .doc",
+    "deploy": "gh-pages -d docs-dist",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
   },
@@ -23,7 +23,7 @@
     "url": "https://github.com/artdong/react-org-tree/issues"
   },
   "private": true,
-  "homepage": "https://github.com/artdong/react-org-tree",
+  "homepage": "https://artdong.github.io/react-org-tree",
   "keywords": [
     "react",
     "org",

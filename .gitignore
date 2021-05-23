@@ -24,3 +24,5 @@ package.lock.json
 examples/demo/.idea/workspace.xml
 /**/**/.umi
 /**/**/.umi-production
+/docs-dist
+
