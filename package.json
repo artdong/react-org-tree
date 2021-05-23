@@ -10,7 +10,8 @@
   "scripts": {
     "docs:start": "dumi dev",
     "docs:build": "dumi build",
-    "docs:deploy": "gh-pages -d .doc",
+    "predeploy": "dumi build",
+    "deploy": "gh-pages -d .doc",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
   },
