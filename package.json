@@ -22,7 +22,6 @@
   "bugs": {
     "url": "https://github.com/artdong/react-org-tree/issues"
   },
-  "private": true,
   "homepage": "https://artdong.github.io/react-org-tree",
   "keywords": [
     "react",
