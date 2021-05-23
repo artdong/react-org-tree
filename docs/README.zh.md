@@ -2,23 +2,23 @@
 title: react-org-tree
 hero:
   title: react-org-tree
-  desc: A simple organization tree component based on react
+  desc: 一个基于react的组织树组件
   actions:
-    - text: Get Started →
+    - text: 快速开始 →
       link: /guide
 features:
-  - title: Support
-    desc: It‘s based on react framework.
-  - title: Features
-    desc: Includes horizontal, vertical, expand, expandAll and so on.
-  - title: Production-Ready
-    desc: Has been published on npm.
+  - title: 语言
+    desc: 基于最流行的react框架.
+  - title: 功能
+    desc: 可以横向、纵向展示，支持展开、折叠，自定义颜色，自定义大小等.
+  - title: 生产可用
+    desc: 已经发布到npm上，可使用npm或者yarn安装.
 footer: MIT Licensed | Copyright © 2020-present<br />Powered by [artdong](https://github.com/artdong)
 ---
 
 # react-org-tree
 
-### 📦 Installation
+### 📦 安装
 
 ```
 # use npm
@@ -27,7 +27,7 @@ npm i react-org-tree
 # use yarn
 yarn add react-org-tree
 ```
-### 🔨 Usage
+### 🔨 示例
 
 ``` js
 import OrgTree from 'react-org-tree';
@@ -71,7 +71,7 @@ const data = {
 
 See details：[Getting Started](/guide)
 
-### Support
+### 支持赞助
 
 <p align='center'>
   <a href="https://www.buymeacoffee.com/artd" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/arial-violet.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" >
