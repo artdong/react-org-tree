@@ -5,9 +5,9 @@ export default defineConfig({
   hash: true,
   ssr: {},
   favicon:
-    'https://avatars0.githubusercontent.com/u/9441414?s=200&v=4',
+    'https://github.com/artdong/react-org-tree/blob/0.2.8/img/logo.svg',
   logo:
-    'https://avatars0.githubusercontent.com/u/9441414?s=200&v=4',
+    'https://github.com/artdong/react-org-tree/blob/0.2.8/img/logo.svg',
   outputPath: 'docs-dist',
   base: 'react-org-tree',
   publicPath: '/react-org-tree/',
