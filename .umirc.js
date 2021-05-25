@@ -4,9 +4,9 @@ export default defineConfig({
   mode: 'site',
   hash: true,
   favicon:
-    'https://github.com/artdong/react-org-tree/blob/0.2.8/img/logo.svg',
+    'https://raw.githubusercontent.com/artdong/react-org-tree/f9c418ef7b904c83c1aba36cfc3aabbb9b3da10f/img/logo.svg',
   logo:
-    'https://github.com/artdong/react-org-tree/blob/0.2.8/img/logo.svg',
+    'https://raw.githubusercontent.com/artdong/react-org-tree/f9c418ef7b904c83c1aba36cfc3aabbb9b3da10f/img/logo.svg',
   outputPath: 'docs-dist',
   base: 'react-org-tree',
   publicPath: '/react-org-tree/',
