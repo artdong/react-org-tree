@@ -3,7 +3,6 @@ import { defineConfig } from 'dumi';
 export default defineConfig({
   mode: 'site',
   hash: true,
-  ssr: {},
   favicon:
     'https://github.com/artdong/react-org-tree/blob/0.2.8/img/logo.svg',
   logo:
