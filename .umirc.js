@@ -20,11 +20,11 @@ export default defineConfig({
   ],
   navs: {
     en: [
-      null,
+      { title: 'Demo', path: '/demo' },
       { title: 'GitHub', path: 'https://github.com/artdong/react-org-tree' },
     ],
     zh: [
-      null,
+      { title: '示例', path: '/demo' },
       { title: 'GitHub', path: 'https://github.com/artdong/react-org-tree' },
     ],
   },
@@ -33,6 +33,10 @@ export default defineConfig({
       name: 'keywords',
       content:
         'react, react-org-tree, react-components, javascript',
+    },
+    {
+      name: 'description',
+      content: '🏆 一个react组织树组件',
     },
   ],
   exportStatic: {},
