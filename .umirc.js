@@ -20,11 +20,11 @@ export default defineConfig({
   ],
   navs: {
     en: [
-      { title: 'Demo', path: '/demo' },
+      null,
       { title: 'GitHub', path: 'https://github.com/artdong/react-org-tree' },
     ],
     zh: [
-      { title: '示例', path: '/demo' },
+      null,
       { title: 'GitHub', path: 'https://github.com/artdong/react-org-tree' },
     ],
   },

@@ -1,11 +1,9 @@
 ---
-title: expand
+title: 展开
 order: 1
 nav:
-  title: Demo
+  title: 示例
 ---
-
-## expand
 
 <code src="../examples/expand.jsx">
 

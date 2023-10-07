@@ -1,13 +1,11 @@
 ---
-title: expand
-order: 1
+title: 基础
+order: 0
 nav:
-  title: Demo
+  title: 示例
 ---
 
-## expand
-
-<code src="../examples/expand.jsx">
+<code src="../examples/basic.jsx">
 
 ## API
 

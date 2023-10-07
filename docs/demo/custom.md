@@ -1,13 +1,13 @@
 ---
-title: expand
-order: 1
+title: custom
+order: 5
 nav:
   title: Demo
 ---
 
-## expand
+## custom
 
-<code src="../examples/expand.jsx">
+<code src="../examples/custom.jsx">
 
 ## API
 

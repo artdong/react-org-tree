@@ -1,6 +1,6 @@
 {
   "name": "react-org-tree",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a simple organization tree component based on react",
   "main": "dist/bundle.js",
   "files": [
@@ -8,6 +8,8 @@
     "lib"
   ],
   "scripts": {
+    "dev": "dumi dev",
+    "start": "dumi dev",
     "docs:start": "dumi dev",
     "docs:build": "dumi build",
     "predeploy": "dumi build",
