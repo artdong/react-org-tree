@@ -71,9 +71,14 @@ const data = {
 
 See details：[Getting Started](/guide)
 
-### 支持赞助
+#### 薅羊毛，大额红包码
 
 <p align='center'>
-  <a href="https://www.buymeacoffee.com/artd" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/arial-violet.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" >
-  </a>
+<img src='https://upload-images.jianshu.io/upload_images/3100736-e1e4b012ad617601.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240' width='280' alt='Build errors'>
+</p>
+
+#### 支持赞助，请作者喝一杯咖啡
+
+<p align='center'>
+<img src='https://upload-images.jianshu.io/upload_images/3100736-46a28aed4ded25e4.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240' width='280' alt='Build errors'>
 </p>

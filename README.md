@@ -109,9 +109,14 @@ react-org-tree is released under the MIT license.
 <img src='https://upload-images.jianshu.io/upload_images/3100736-b722d7d753e6eaf9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240' width='280' alt='Build errors'>
 </p>
 
-#### 请作者喝一杯咖啡
+#### 薅羊毛，大额红包码
 
 <p align='center'>
-  <a href="https://www.buymeacoffee.com/artd" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/arial-violet.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" >
-  </a>
+<img src='https://upload-images.jianshu.io/upload_images/3100736-e1e4b012ad617601.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240' width='280' alt='Build errors'>
+</p>
+
+#### 打赏，请作者喝一杯咖啡
+
+<p align='center'>
+<img src='https://upload-images.jianshu.io/upload_images/3100736-46a28aed4ded25e4.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240' width='280' alt='Build errors'>
 </p>
